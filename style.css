@@ -5,6 +5,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: tomato;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .container {
   display: flex;
@@ -16,11 +17,28 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+#pertanyaan {
+  margin-bottom: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+button {
+  border: none;
+  background-color: green;
+  font-size: 24px;
+  padding: 8px;
+  margin-left: 10px;
+  height: 65px;
+  color: white;
+  font-weight: 600;
+}
 input {
-  margin-top: 10px;
   border: none;
   background-color: #eaeaea;
   color: #222222;
-  padding: 16px;
+  padding: 8px;
   font-size: 24px;
 }
